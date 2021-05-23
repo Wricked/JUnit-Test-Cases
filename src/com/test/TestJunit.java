@@ -1,5 +1,6 @@
 package com.test;
 
+import com.utils.MessageUtil;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

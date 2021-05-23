@@ -1,14 +1,15 @@
-package com.test;
+package com.runner;
 
+import com.test.TestJunitAddSetUpTearDown;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 
 import java.util.Arrays;
 
-public class TestRunner2 {
+public class TestRunnerAddSetUpTearDown {
 
     public static void main(String[] args) {
-        Result result = JUnitCore.runClasses(TestJunit2.class);
+        Result result = JUnitCore.runClasses(TestJunitAddSetUpTearDown.class);
         System.out.println("Failure: " + Arrays.toString(result.getFailures().toArray()));
         System.out.println("Successful: " + result.wasSuccessful());
     }

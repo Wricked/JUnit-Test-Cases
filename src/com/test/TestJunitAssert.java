@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class TestJunit1 {
+public class TestJunitAssert {
     @Test
     public void testAdd() {
         int num = 5;
